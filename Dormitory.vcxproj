@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Dormitory.cpp" />
-    <ClCompile Include="ParserService.cpp" />
+    <ClCompile Include="FileService.cpp" />
+    <ClCompile Include="SearchService.cpp" />
+    <ClCompile Include="StringService.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="StudentsController.cpp" />
     <ClCompile Include="StudentsRepository.cpp" />
@@ -138,8 +140,13 @@
     <Text Include="Database.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Constants.h" />
-    <ClInclude Include="ParserService.h" />
+    <ClInclude Include="DbPath.h" />
+    <ClInclude Include="FIleService.h" />
+    <ClInclude Include="MinSalary.h" />
+    <ClInclude Include="Searches.h" />
+    <ClInclude Include="SearchService.h" />
+    <ClInclude Include="Sorts.h" />
+    <ClInclude Include="StringService.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="StudentsController.h" />
     <ClInclude Include="StudentsRepository.h" />

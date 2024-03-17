@@ -37,15 +37,15 @@
     <Filter Include="Исходные файлы\Entities">
       <UniqueIdentifier>{9089fee9-8239-41fa-8b9f-7257e33b7ad4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Constants">
+      <UniqueIdentifier>{d78b24ac-468c-41ed-a98e-592c7819e7c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dormitory.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="SortService.cpp">
-      <Filter>Исходные файлы\Services</Filter>
-    </ClCompile>
-    <ClCompile Include="ParserService.cpp">
       <Filter>Исходные файлы\Services</Filter>
     </ClCompile>
     <ClCompile Include="StudentsController.cpp">
@@ -56,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="Student.cpp">
       <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="FileService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="StringService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -76,10 +85,25 @@
     <ClInclude Include="Student.h">
       <Filter>Файлы заголовков\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="Constants.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="Searches.h">
+      <Filter>Файлы заголовков\Constants</Filter>
     </ClInclude>
-    <ClInclude Include="ParserService.h">
+    <ClInclude Include="Sorts.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="DbPath.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="MinSalary.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchService.h">
+      <Filter>Файлы заголовков\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="FIleService.h">
+      <Filter>Файлы заголовков\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="StringService.h">
       <Filter>Файлы заголовков\Services</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,7 +1,8 @@
 #pragma once
 #include <list>
 #include "Student.h"
-#include "Constants.h"
+#include "Sorts.h"
+#include "Searches.h"
 
 list<Student> getAllStudents(Sorts sort);
 Student getStudentByName(string studentName, Searches search);

@@ -10,12 +10,7 @@ list<Student> selectionSort(list<Student> students)
     return list<Student>();
 }
 
-Student binarySearch(list<Student> students)
+list<Student> timsort(list<Student> students)
 {
-    return Student();
-}
-
-Student linearSearch(list<Student> students)
-{
-    return Student();
+    return list<Student>();
 }
