@@ -13,10 +13,98 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\Controllers">
+      <UniqueIdentifier>{d08d15f7-5538-4657-b20b-4d786aba52b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Services">
+      <UniqueIdentifier>{8fb76d45-19c7-4574-90f9-d58d657ed492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Repositories">
+      <UniqueIdentifier>{03f00e60-6131-4e6b-afe2-b4306e4c0486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Entities">
+      <UniqueIdentifier>{1509ebac-28dd-4738-bcb0-bda5af4085f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Controllers">
+      <UniqueIdentifier>{7e519758-dddf-470b-8f7d-ce7704f814a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Services">
+      <UniqueIdentifier>{f1102baf-c366-4700-bffb-b35d86f6e9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Repositories">
+      <UniqueIdentifier>{894bb9fa-b4bf-46bb-8533-b2c9367f417a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entities">
+      <UniqueIdentifier>{9089fee9-8239-41fa-8b9f-7257e33b7ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Constants">
+      <UniqueIdentifier>{d78b24ac-468c-41ed-a98e-592c7819e7c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dormitory.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="SortService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentsController.cpp">
+      <Filter>Исходные файлы\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentsRepository.cpp">
+      <Filter>Исходные файлы\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="FileService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="StringService.cpp">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Database.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StudentsController.h">
+      <Filter>Файлы заголовков\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SortService.h">
+      <Filter>Файлы заголовков\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentsRepository.h">
+      <Filter>Файлы заголовков\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Файлы заголовков\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Searches.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorts.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="DbPath.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="MinSalary.h">
+      <Filter>Файлы заголовков\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchService.h">
+      <Filter>Файлы заголовков\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="FIleService.h">
+      <Filter>Файлы заголовков\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="StringService.h">
+      <Filter>Файлы заголовков\Services</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
